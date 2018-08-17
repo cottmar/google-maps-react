@@ -22,11 +22,11 @@ import Polyline from './components/withPolylines';
 import CustomEvents from './components/resizeEvent';
 
 const routes = [
-  {
-    path: '/basic',
-    name: 'Simple',
-    component: Simple
-  },
+  // {
+  //   path: '/basic',
+  //   name: 'Simple',
+  //   component: Simple
+  // },
   {
     path: '/markers',
     name: 'Marker',
@@ -37,36 +37,36 @@ const routes = [
     name: 'Clickable markers',
     component: ClickableMarkers
   },
-  {
-    path: '/places',
-    name: 'Google places',
-    component: GooglePlaces
-  },
-  {
-    path: '/autocomplete',
-    name: 'Autocomplete',
-    component: Autocomplete
-  },
-  {
-    path: '/heatMap',
-    name: 'Heat Map',
-    component: HeatMap
-  },
-  {
-    path: '/polygons',
-    name: 'Polygon',
-    component: Polygon
-  },
-  {
-    path: '/polyline',
-    name: 'Polyline',
-    component: Polyline
-  },
-  {
-    path: '/onResizeEvent',
-    name: 'Custom events',
-    component: CustomEvents
-  }
+  // {
+  //   path: '/places',
+  //   name: 'Google places',
+  //   component: GooglePlaces
+  // },
+  // {
+  //   path: '/autocomplete',
+  //   name: 'Autocomplete',
+  //   component: Autocomplete
+  // },
+  // {
+  //   path: '/heatMap',
+  //   name: 'Heat Map',
+  //   component: HeatMap
+  // },
+  // {
+  //   path: '/polygons',
+  //   name: 'Polygon',
+  //   component: Polygon
+  // },
+  // {
+  //   path: '/polyline',
+  //   name: 'Polyline',
+  //   component: Polyline
+  // },
+  // {
+  //   path: '/onResizeEvent',
+  //   name: 'Custom events',
+  //   component: CustomEvents
+  // }
 ];
 
 const createElement = (Component, route) => {
